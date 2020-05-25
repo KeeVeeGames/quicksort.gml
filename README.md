@@ -13,7 +13,7 @@ array_sort(array, ascending);
 
 **Description:** Modifies the original array sorting it with the quicksort algorithm
 
-## Example
+## Example:
 ```js
 var array1 = [2, 4, 43, 50, 79, 36, 93, 54, 99, 26, 65, 69, 81, 63, 72, 3, 59, 19, 35, 5, 53, 28, 91, 58, 51, 47, 64, 94, 41, 39, 7, 49, 78, 20, 84, 92, 23, 8, 13, 57, 9, 14, 16, 30, 12, 68, 45];
 var array2 = ["Erik Dipalma", "Markus Plaisted", "Isela Denmark", "Glayds Billman", "Florence Hoffmeister", "Aurore Roser", "Pete Collins", "Glynda Van", "Kanesha Budniewski", "Sanford Merrigan"];
@@ -28,10 +28,10 @@ Will give you:
 ["Sanford Merrigan", "Pete Collins", "Markus Plaisted", "Kanesha Budniewski", "Isela Denmark", "Glynda Van", "Glayds Billman", "Florence Hoffmeister", "Erik Dipalma", "Aurore Roser"]
 ```
 
-## Algorithm
+## Algorithm:
 Standard quicksort algorithm may have problems with handling small arrays, recurrion and extreme pivot elements. To handle that, current algorith implementing an array-based stack. The separation procedure is made as a loop. Each time the array is divided into two parts, a request is sending to the stack to sort the larger one, and the smaller one will be processed at the next iteration. Requests are selected from the stack as the separation procedure is freed from current tasks. Sorting ends when queries end.
 
-## Author
+## Author:
 Nikita Musatov - [MusNik / KeeVee Games](https://keevee.games/)
 
 License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
