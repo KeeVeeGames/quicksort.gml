@@ -1,5 +1,9 @@
 # quicksort.gml
-This is a small script implementing modified quicksort algorithm for arrays in GameMaker: Studio. Can be used for imeplementing custom List types based on array or other fun things. Example of using: [ListArray](https://github.com/KeeVeeGames/ListArray.gml).
+This is a small script implementing modified quicksort algorithm for arrays in GameMaker: Studio. Can be used for imeplementing custom List types based on array or other fun things. Example of using: [ArrayList](https://github.com/KeeVeeGames/ArrayList.gml).
+
+## Installation:
+Get the latest asset package from the [releases page](https://github.com/KeeVeeGames/quicksort.gml/releases). Import it into IDE.
+Alternatively copy the code from corresponding scripts into your project.
 
 ## Syntax:
 ```js
