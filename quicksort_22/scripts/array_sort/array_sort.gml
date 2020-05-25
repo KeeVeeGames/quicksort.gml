@@ -70,4 +70,5 @@ do {
 			lb = i;
 		}
 	} until (lb >= ub);
+	
 } until (stack_pos = 0);
