@@ -10,7 +10,7 @@ Alternatively copy the code from corresponding scripts into your project.
 array_sort(array, ascending);
 ```
 
-| Argument name | Type | Description                                                               |
+| Argument      | Type | Description                                                               |
 |---------------|------|---------------------------------------------------------------------------|
 | array         | \*[] | Array to sort                                                             |
 | ascending     | bool | Whether the values should be ascending (true) or descending (false) order |
