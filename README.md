@@ -6,16 +6,14 @@ Get the latest asset package from the [releases page](https://github.com/KeeVeeG
 Alternatively copy the code from corresponding scripts into your project.
 
 ## Syntax:
-```js
-array_sort(array, ascending);
-```
+### `array_sort(array, ascending)`
+Modifies the original array sorting it with the quicksort algorithm.
 
-| Argument      | Type | Description                                                               |
-|---------------|------|---------------------------------------------------------------------------|
-| array         | \*[] | Array to sort                                                             |
-| ascending     | bool | Whether the values should be ascending (true) or descending (false) order |
-
-**Description:** Modifies the original array sorting it with the quicksort algorithm
+**Parameters:**
+| Name      | Type   | Description                                                               |
+|-----------|--------|---------------------------------------------------------------------------|
+| array     | `*[]`  | Array to sort                                                             |
+| ascending | `bool` | Whether the values should be ascending (true) or descending (false) order |
 
 ## Example:
 ```js
