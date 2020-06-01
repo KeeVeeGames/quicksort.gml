@@ -1,7 +1,7 @@
 /// @function						array_sort(array, ascending)
 /// @param {*[]} array				Array to sort
 /// @param {bool} ascending			Whether the values should be ascending (true) or descending (false) order
-/// @description					Modifies the original array sorting it with the quicksort algorithm
+/// @description					Modifies the original array, sorting it with the quicksort algorithm
 
 var array = argument0;
 var ascending = argument1;
@@ -45,7 +45,7 @@ do {
 					
 			if (i <= j) {
 				temp = array[i];
-				array[@ i] = array[j]
+				array[@ i] = array[j];
 				array[@ j] = temp;
 				i++;
 				j--;
@@ -70,5 +70,4 @@ do {
 			lb = i;
 		}
 	} until (lb >= ub);
-	
-} until (stack_pos = 0);
+} until (stack_pos == 0);
