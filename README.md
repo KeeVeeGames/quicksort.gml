@@ -10,10 +10,10 @@ Alternatively copy the code from corresponding scripts into your project.
 Modifies the original array sorting it with the quicksort algorithm.
 
 **Parameters:**
-| Name      | Type   | Description                                                               |
-|-----------|--------|---------------------------------------------------------------------------|
-| array     | `*[]`  | Array to sort                                                             |
-| ascending | `bool` | Whether the values should be ascending (true) or descending (false) order |
+| Name      | Type                         | Description                                                               |
+|-----------|------------------------------|---------------------------------------------------------------------------|
+| array     | [`*[]`](#! "Any type array") | Array to sort                                                             |
+| ascending | `bool`                       | Whether the values should be ascending (true) or descending (false) order |
 
 ## Example:
 ```js
