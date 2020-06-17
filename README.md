@@ -34,6 +34,6 @@ Will give you:
 Standard quicksort algorithm may have problems with handling small arrays, recurrion and extreme pivot elements. To handle that, current algorith implementing an array-based stack. The separation procedure is made as a loop. Each time the array is divided into two parts, a request is sending to the stack to sort the larger one, and the smaller one will be processed at the next iteration. Requests are selected from the stack as the separation procedure is freed from current tasks. Sorting ends when queries end.
 
 ## Author:
-Nikita Musatov - [MusNik / KeeVee Games](https://keevee.games/)
+Nikita Musatov - [MusNik / KeeVee Games](https://twitter.com/keeveegames)
 
 License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
