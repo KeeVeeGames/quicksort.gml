@@ -6,7 +6,7 @@ Get the latest asset package from the [releases page](../../releases). Import it
 Alternatively copy the code from corresponding scripts into your project.
 
 ## Syntax:
-### `array_sort(array, ascending)`
+### `array_sort(array, ascending)`
 Modifies the original array sorting it with the quicksort algorithm.
 
 **Parameters:**
