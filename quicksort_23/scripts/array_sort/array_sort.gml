@@ -30,10 +30,10 @@ function array_sort(array, ascending) {
     ub_stack[1] = length - 1;
     
     do {
-    lb = lb_stack[stack_pos];
-    ub = ub_stack[stack_pos];
-    stack_pos--;
-    
+        lb = lb_stack[stack_pos];
+        ub = ub_stack[stack_pos];
+        stack_pos--;
+        
         do {
             pivot_pos = (lb + ub) >> 1;
             i = lb;
