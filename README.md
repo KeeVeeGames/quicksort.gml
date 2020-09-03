@@ -1,4 +1,7 @@
 # quicksort.gml
+
+[![Donate](https://img.shields.io/badge/donate-%E2%9D%A4-blue.svg)](https://musnik.itch.io/donate-me) [![License](https://img.shields.io/github/license/KeeVeeGames/quicksort.gml)](#!)
+
 This is a small script implementing modified quicksort algorithm for arrays in GameMaker: Studio. It is sorting array pretty fast and also can be used for creating custom List types based on array or other fun things. Example of using: [ArrayList](https://github.com/KeeVeeGames/ArrayList.gml).
 
 ## Installation:
