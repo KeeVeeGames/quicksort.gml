@@ -2,9 +2,9 @@
 
 [![Donate](https://img.shields.io/badge/donate-%E2%9D%A4-blue.svg)](https://musnik.itch.io/donate-me) [![License](https://img.shields.io/github/license/KeeVeeGames/quicksort.gml)](#!)
 
-This is a small script implementing a modified quicksort algorithm for arrays in GameMaker: Studio. It is sorting array pretty fast and also can be used for creating custom List types based on array or other fun things. Example of using: [ArrayList](https://github.com/KeeVeeGames/ArrayList.gml).
+### **Note:** GameMaker Studio 2.3.1 introduced built-in array_sort function, it is recommended to use it instead, if you're able to work on 2.3.1+.
 
-**Note:** GameMaker Studio 2.3.1 introduced built-in array_sort function, it is recommended to use it instead, if you're able to work on 2.3.1+.
+This is a small script implementing a modified quicksort algorithm for arrays in GameMaker: Studio. It is sorting array pretty fast and also can be used for creating custom List types based on array or other fun things. Example of using: [ArrayList](https://github.com/KeeVeeGames/ArrayList.gml).
 
 ## Installation:
 Get the latest asset package from the [releases page](../../releases). Import it into IDE.   
