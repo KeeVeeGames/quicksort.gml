@@ -19,7 +19,7 @@ Modifies the original array sorting it with the quicksort algorithm.
 **Parameters:**
 | Name      | Type                         | Description                                                               |
 |-----------|------------------------------|---------------------------------------------------------------------------|
-| array     | [`any[]`]                    | Array to sort                                                             |
+| array     | `any[]`                      | Array to sort                                                             |
 | ascending | `bool`                       | Whether the values should be ascending (true) or descending (false) order |
 
 ## Example:
